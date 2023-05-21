@@ -1,0 +1,589 @@
+Question 1)
+
+When slicing in Python what does the “0” in this statement [0:2] specify ?
+
+It specifies the position to start the slice
+
+
+
+
+Question 2)
+
+If var = “01234567” what Python statement would print out only the odd elements ?
+
+print(var[1::2])
+
+
+
+
+Question 3)
+
+Consider the string Name=”EMILY”, what statement would return the index of 0 ?
+
+Name.find("E")
+
+
+
+
+Question 4)
+
+What is the type of the following: 1.0
+
+float
+
+
+
+
+Question 5)
+
+What is the result of the following code segment: int(3.99)
+
+3
+
+
+
+
+Question 6)
+
+What is the result of the following code segment:1/2 ?
+
+0.5 
+
+
+
+
+Question 7)
+
+In Python 3, what is the type of the variable x after the following: x=2/2 ?
+
+float
+
+
+
+
+Question 8)
+
+Dictionary items can be:
+
+Numerous data types
+
+
+
+
+Question 9)
+
+What is a tuple ?
+
+A collection that is ordered and unchangeable
+
+
+
+
+Question 10)
+
+What is the result of the following operation: '1:2,3:4'.split(':') ?
+
+['1', '2,3', '4']
+
+
+
+
+Question 11)
+
+What is an important difference between lists and tuples ?
+
+Lists are mutable tuples are not 
+
+
+
+
+Question 12)
+
+How do you cast the list A to the set a ?
+
+a=set(A)
+
+
+
+
+Question 13)
+
+If x=1 what will produce the below output ?
+
+Hi
+
+Mike
+
+
+
+
+
+if(x!=1): 
+
+print('Hello') 
+
+ else: 
+
+    print('Hi') 
+
+ print('Mike') 
+
+
+
+
+
+Question 14)
+
+What statement will execute the remaining code no matter the end result ?
+
+Finally
+
+
+
+
+Question 15)
+
+What add function would return ‘4’ ?
+
+def add(x): return(x+x) add(2) 
+
+
+
+
+Question 16)
+
+What method organizes the elements in a given list in a specific descending or ascending order ?
+
+sort()
+
+
+
+
+Question 17)
+
+What is the output for the below line of code ?
+
+A=[8,5,2] for a in A: print(12-a) 
+
+
+
+ 4
+ 7
+ 10
+
+
+
+
+Question 18)
+
+What is the output of the following ?
+
+ for i in range(1,5): if (i!=2): print(i) 
+
+
+
+1
+3
+4
+
+
+
+
+Question 19)
+
+What is the height of the rectangle in the class Rectangle ?
+
+
+
+class Rectangle(object): def __init__(self,width=2,height =3,color='r'): self.height=height self.width=width self.color=color def drawRectangle(self): import matplotlib.pyplot as plt plt.gca().add_patch(plt.Rectangle((0, 0),self.width, self.height ,fc=self.color)) plt.axis('scaled') plt.show() 
+
+
+
+3
+
+
+
+
+Question 20)
+
+What is the result of the following lines of code ?
+
+ a=np.array([0,1,0,1,0]) b=np.array([1,0,1,0,1]) a/b 
+
+
+
+Division by zero error
+
+
+
+
+Question 21)
+
+What is the result of the following lines of code ?
+
+ a=np.array([1,1,1,1,1]) a+10
+
+
+
+array([11, 11, 11, 11, 11])
+
+
+
+
+Question 22)
+
+The following line of code selects the columns along with what headers from the dataframe df ?
+
+y=df[['Artist','Length','Genre']]
+
+‘Artist’, ‘Length’ and ‘Genre’
+
+
+
+
+Question 23)
+
+What is the method readline() used for?
+
+It helps to read one complete line from a given text file
+
+
+
+
+Question 24)
+
+Consider the following line of code:
+
+ with open("Example.txt","a") as file1:
+
+
+
+What mode is the file object in?
+
+append
+
+
+
+
+Question 25)
+
+What does URL stand for ?
+
+Uniform Resource Locator
+
+
+
+
+
+ Question 26)
+
+When slicing in Python what does the “2” in this statement [0:2] specify ?
+It specifies the position to end the slice
+
+
+Question 27)
+Consider the string Name="ABCDE", what is the result of the following operation Name.find("B") ?
+1
+
+
+Question 28)
+What is the type of the following: 1.0
+float
+
+
+Question 29)
+What following code segment would return a 3 ?
+int(3.99)
+
+
+Question 30)
+When using the double slash “//” for integer division the result will be ?
+Rounded
+
+
+Question 31)
+In Python 3 what does regular division always result in ?
+Float
+
+
+Question 32)
+Whatdata type must have unique keys ?
+Dictionary
+
+
+Question 33)
+What is the syntax to obtain the first element of the tuple ?
+
+A=('a','b','c')
+
+A[0]
+
+
+Question 34)
+What does the split() method return from a list of words ?
+The list of words in a string separated by a delimiter
+
+
+Question 35)
+What is an important difference between lists and tuples ?
+
+Lists are mutable tuples are not 
+
+
+Question 36)
+What code segment is used to cast list “B” to the set “b” ?
+b=set(B)
+
+
+Question 37)
+What code segment would output the following ?
+
+2
+3
+4
+
+for i in range(1,5): if (i!=1): print(i)
+
+
+Question 38)
+What is the result of the following lines of code ?
+
+ a=np.array([0,1,0,1,0]) b=np.array([1,0,1,0,1]) a*b 
+
+array([0, 0, 0, 0, 0])
+
+
+
+Question 39)
+What is the result of the following lines of code ?
+
+a=np.array([10,9,8,7,6]) a+1
+
+array([11,10,9,8,7])
+
+
+
+
+Question 40)
+
+How would you select the columns with the headers: Artist, Length and Genre from the dataframe df and assign them to the variable y ?
+
+y=df[['Artist','Length','Genre']]
+
+
+
+
+Question 41)
+
+Consider the file object: File1.What would the following line of code output?
+
+file1.readline(4) 
+
+
+
+It would output the first 4 characters from the text file
+
+
+
+
+Question 42)
+
+Which line of code is in the mode of append ?
+
+with open("Example.txt","a") as file1:
+
+
+
+
+Question 43)
+In Python what statement would print out the first two elements “Li” of “Lizz” ?
+print(name[0:2])
+
+
+Question 44)
+In Python, if you executed var = '01234567', what would be the result of print(var[::2]) ?
+0246 
+
+
+Question 45)
+Consider the string Name=”EMILY”, what statement would return the index of 0 ?
+Name.find("E")
+
+
+
+
+
+Question 46)
+In Python what can be either a positive or negative number but does not contain a decimal point ?
+int
+
+
+Question 47)
+What following code segment would produce an output of “0.5” ?
+1/2
+
+
+Question 48)
+In Python 3 what does regular division always result in ?
+Float
+
+
+Question 49)
+What does the index of “1” correspond to in a list or tuple ?
+The second element
+
+
+Question 50)
+Given the function add shown below, what does the following return ?
+
+ def add(x): return(x+x) add('1') 
+
+'11'
+
+
+Question 51)
+What function returns a sorted list ?
+sorted()
+
+
+Question 52)
+What segment of code would output the following ?
+11
+22
+33
+
+A=['1','2','3'] for a in A: print(2*a) 
+ 
+
+
+Question 53)
+What line of code would produce the following: array([11, 11, 11, 11, 11]) ?
+a=np.array([1,1,1,1,1]) a+10
+
+
+Question 54)
+In Python what data type is used to represent text and not numbers ?
+str
+
+
+Question 55)
+Whatdata type must have unique keys ?
+Dictionary
+
+
+Question 56)
+
+Lists are:
+Mutable
+
+
+
+Question 57)
+What is the process of forcing your program to output an error message when it encounters an issue ?
+Exception handling
+
+
+
+Question 58)
+A list cannot be sorted if it contains:
+
+strings and numeric values
+
+
+
+
+Question 59)
+What is the method defined in the class Rectangle used to draw the rectangle?
+
+class Rectangle(object): def __init__(self,width=2,height =3,color='r'): self.height=height self.width=width self.color=color def drawRectangle(self): import matplotlib.pyplot as plt plt.gca().add_patch(plt.Rectangle((0, 0),self.width, self.height ,fc=self.color)) plt.axis('scaled') plt.show() 
+
+
+drawRectangle
+
+
+
+Question 60)
+What is the result of the following lines of code ?
+
+ a=np.array([0,1,0,1,0]) b=np.array([1,0,1,0,1]) a+b 
+
+array([1, 1, 1, 1, 1])
+
+
+
+Question 61)
+What mode over writes existing text in a file ?
+Write “w”
+
+
+Question 62)
+If var = “01234567” what Python statement would print out only the even elements?
+print(var[::2]) 
+
+
+
+Question 63)
+In Python 3 what following code segment will produce a float ?
+1/2
+
+
+
+Question 64)
+What will this code segment “A[0]” obtain from a list or tuple ?
+The first element of a list or tuple
+
+
+Question 65)
+What line of code would produce this output: ['1','2','3','4'] ?
+
+'1,2,3,4'.split(',')
+
+
+
+
+Question 66)
+What is an error that occurs during the execution of code ?
+Exception
+
+
+Question 67)
+What add function would return ‘2’ ?
+def add(x): return(x+x) add(1) 
+
+
+
+Question 68)
+What is the output of the following few lines of code ?
+
+ A=['1','2','3'] for a in A: print(2*a) 
+
+
+11
+22
+33
+
+
+Question 69)
+What code segment would output the following ?
+
+2
+
+for i in range(1,5): if (i==2): print(i)
+
+
+
+Question 70)
+What is the width of the rectangle in the class Rectangle?
+
+class Rectangle(object): def __init__(self,width=2,height =3,color='r'): self.height=height self.width=width self.color=color def drawRectangle(self): import matplotlib.pyplot as plt plt.gca().add_patch(plt.Rectangle((0, 0),self.width, self.height ,fc=self.color)) plt.axis('scaled') plt.show() 
+
+2
+
+
+Question 71)
+What is the result of the following lines of code ?
+
+ a=np.array([0,1,0,1,0]) b=np.array([1,0,1,0,1]) a+b 
+
+array([1, 1, 1, 1, 1])
+
